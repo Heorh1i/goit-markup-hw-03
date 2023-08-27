@@ -84,7 +84,6 @@ button {
 }
 .nav-menu {
   display: flex;
-  gap: 76px;
   align-items: center;
 }
 
@@ -98,6 +97,7 @@ button {
 .address {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .nav-link {
