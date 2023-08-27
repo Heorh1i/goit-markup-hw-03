@@ -181,6 +181,7 @@ header {
 }
 .our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-member {
   background-color: #fff;
@@ -202,6 +203,9 @@ header {
 }
 
 /* Our Portfolio */
+.our-portfolio {
+  padding: 120px 0;
+}
 .portfolio-header {
   font-weight: 700;
   text-align: center;
