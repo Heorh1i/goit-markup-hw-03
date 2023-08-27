@@ -86,11 +86,14 @@ button {
   display: flex;
   gap: 76px;
   align-items: center;
-  padding: 24px 0;
 }
+
 .pages {
   display: flex;
   gap: 40px;
+}
+.pages li {
+  padding: 24px 0;
 }
 .address {
   display: flex;
