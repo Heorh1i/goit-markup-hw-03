@@ -152,12 +152,16 @@ header {
   display: flex;
   gap: 24px;
 }
+.duty-item {
+  width: calc((100% - 72px) / 4);
+}
 .duty-header {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .duty-text {
   letter-spacing: 0.32px;
@@ -173,7 +177,7 @@ header {
   color: #2e2f42;
   font-weight: 700;
   text-align: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .members {
   display: flex;
@@ -185,6 +189,11 @@ header {
 }
 .team-member {
   background-color: #fff;
+  width: calc((100%-72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.member-info {
+  padding: 32px 0;
 }
 .member-name {
   color: #2e2f42;
@@ -193,7 +202,7 @@ header {
   line-height: 1.2;
   letter-spacing: 0.4px;
   text-align: center;
-  padding-top: 32px;
+  margin-bottom: 8px;
 }
 .member-role {
   letter-spacing: 0.32px;
@@ -214,15 +223,21 @@ header {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .portfolio-projects {
   display: flex;
   gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
-.portfolio-projects li {
-  border: 1px solid var(--cornflower, #e7e9fc);
+.project-item {
+  width: calc((100%-48px) / 3);
+}
+.project-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .project-header {
   color: #2e2f42;
@@ -230,8 +245,7 @@ header {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  margin-top: 24px;
-  padding-left: 32px;
+  margin-bottom: 8px;
 }
 .project-industry {
   letter-spacing: 0.32px;
@@ -243,9 +257,13 @@ header {
 /* Footer */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer .logo-element {
   color: #f4f4fd;
+}
+.footer .logo {
+  margin-bottom: 16px;
 }
 .footer-text {
   color: var(--cloud, #f4f4fd);
