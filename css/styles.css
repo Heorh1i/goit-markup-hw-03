@@ -67,6 +67,7 @@ button {
   display: flex;
   padding: 0 15px;
   gap: 332px;
+  /* padding: 24px 0; */
 }
 
 .logo {
@@ -91,13 +92,10 @@ button {
   display: flex;
   gap: 40px;
 }
-.pages li {
-  padding: 24px 0;
-}
+
 .address {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .nav-link {
@@ -105,6 +103,8 @@ button {
   color: #2e2f42;
   letter-spacing: 0.32px;
   line-height: 1.5;
+  display: block;
+  padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
