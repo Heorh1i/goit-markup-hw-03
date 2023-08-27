@@ -42,8 +42,7 @@ button {
   max-width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
+  padding: 0 15px;
 }
 .visually-hidden {
   position: absolute;
@@ -66,7 +65,8 @@ button {
 .header-container {
   display: flex;
   padding: 0 15px;
-  gap: 332px;
+  justify-content: space-between;
+  align-items: center;
   /* padding: 24px 0; */
 }
 
@@ -78,6 +78,8 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.54px;
   line-height: 1.17;
+}
+.nav-menu .logo {
   margin-right: 76px;
 }
 .logo-element {
