@@ -23,12 +23,12 @@
 
   <body>
     <!-- Header -->
-    <header>
+    <header class="container header-container">
       <nav>
         <a href="./index.html" class="logo"
           >Web<span class="logo-element">Studio</span></a
         >
-        <ul>
+        <ul class="pages">
           <li>
             <a href="./index.html" class="nav-link">Studio </a>
           </li>
@@ -42,8 +42,8 @@
           </li>
         </ul>
       </nav>
-      <address class="adress">
-        <ul>
+      <address>
+        <ul class="address">
           <li>
             <a href="mailto:info@devstudio.com" class="adress-link"
               >info@devstudio.com</a
@@ -64,10 +64,10 @@
         <h1 class="main-header">Effective Solutions for Your Business</h1>
         <button type="button" class="order-service">Order Service</button>
       </section>
-      <section>
+      <section class="container">
         <!-- Duties -->
-        <h2>Duties</h2>
-        <ul>
+        <!-- <h2>Duties</h2> -->
+        <ul class="duties">
           <li>
             <h3 class="duty-header">Strategy</h3>
             <p class="duty-text">
@@ -104,56 +104,59 @@
 
       <!-- Our Team -->
       <section class="our-team">
-        <h2 class="team-header">Our Team</h2>
+        <div class="container">
+          <h2 class="team-header">Our Team</h2>
 
-        <ul>
-          <li class="team-member">
-            <img
-              src="./images/our-team/img1.jpg"
-              alt="Mark Guerrero"
-              width="264"
-              height="260"
-            />
-            <h3 class="member-name">Mark Guerrero</h3>
-            <p class="member-role">Product Designer</p>
-          </li>
-          <li class="team-member">
-            <img
-              src="./images/our-team/img2.jpg"
-              alt="Tom Ford"
-              width="264"
-              height="260"
-            />
-            <h3 class="member-name">Tom Ford</h3>
-            <p class="member-role">Frontend Developer</p>
-          </li>
-          <li class="team-member">
-            <img
-              src="./images/our-team/img3.jpg"
-              alt="Camila Garcia"
-              width="264"
-              height="260"
-            />
-            <h3 class="member-name">Camila Garcia</h3>
-            <p class="member-role">Marketing</p>
-          </li>
-          <li class="team-member">
-            <img
-              src="./images/our-team/img4.jpg"
-              alt="Daniel Wilson"
-              width="264"
-              height="260"
-            />
-            <h3 class="member-name">Daniel Wilson</h3>
-            <p class="member-role">UI Designer</p>
-          </li>
-        </ul>
+          <ul class="members">
+            <li class="team-member">
+              <img
+                src="./images/our-team/img1.jpg"
+                alt="Mark Guerrero"
+                width="264"
+                height="260"
+              />
+              <h3 class="member-name">Mark Guerrero</h3>
+              <p class="member-role">Product Designer</p>
+            </li>
+            <li class="team-member">
+              <img
+                src="./images/our-team/img2.jpg"
+                alt="Tom Ford"
+                width="264"
+                height="260"
+              />
+              <h3 class="member-name">Tom Ford</h3>
+              <p class="member-role">Frontend Developer</p>
+            </li>
+            <li class="team-member">
+              <img
+                src="./images/our-team/img3.jpg"
+                alt="Camila Garcia"
+                width="264"
+                height="260"
+              />
+              <h3 class="member-name">Camila Garcia</h3>
+              <p class="member-role">Marketing</p>
+            </li>
+            <li class="team-member">
+              <img
+                src="./images/our-team/img4.jpg"
+                alt="Daniel Wilson"
+                width="264"
+                height="260"
+              />
+              <h3 class="member-name">Daniel Wilson</h3>
+              <p class="member-role">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
+
       <!-- Portfolio -->
-      <section>
+      <section class="container">
         <h2 class="portfolio-header">Our Portfolio</h2>
         <ul class="portfolio-projects">
-          <li>
+          <li class="project-item">
             <img
               src="./images/our-portfolio/project1.jpg"
               alt="project 1"
@@ -219,13 +222,15 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <a href="./index.html" class="logo">
-        Web<span class="logo-element">Studio</span>
-      </a>
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a href="./index.html" class="logo">
+          Web<span class="logo-element">Studio</span>
+        </a>
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
