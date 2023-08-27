@@ -52,8 +52,7 @@ header {
 }
 .header-container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   gap: 332px;
 }
 
@@ -65,13 +64,15 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.54px;
   line-height: 1.17;
+  margin-right: 76px;
 }
 .logo-element {
   color: #2e2f42;
 }
-nav {
+.nav-menu {
   display: flex;
   gap: 76px;
+  align-items: center;
 }
 .pages {
   display: flex;
@@ -108,10 +109,8 @@ nav {
 /* Top Section */
 .top-section {
   background-color: #2e2f42;
-  padding-top: 172px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
-
 .main-header {
   color: #fff;
   font-size: 56px;
